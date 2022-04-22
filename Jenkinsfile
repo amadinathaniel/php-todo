@@ -1,5 +1,5 @@
 pipeline {
-    agent { label 'ansible-configured-agents' }
+    agent any
 
     stages {
 
